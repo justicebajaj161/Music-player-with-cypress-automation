@@ -20,7 +20,7 @@ const NavContainer = styled.div`
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color:#BCFD4C;
+	background-color:pink;
 	@media screen and (max-width: 768px) {
 		position: fixed;
 		z-index: 10;

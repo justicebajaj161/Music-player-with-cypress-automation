@@ -39,13 +39,14 @@ const LibrarySong = ({ song, setCurrentSong, audioRef, isPlaying, songs, setSong
 		</LibrarySongContainer>
 	);
 };
+// #BCFD4C
 const LibrarySongContainer = styled.div`
 	padding: 0 2rem 0 2rem;
 	height: 100px;
 	width: 100%;
 	display: flex;
 	transition: all 0.3s ease;
-	background-color: ${(p) => (p.isActive ? "#BCFD4C" : "white")};
+	background-color: ${(p) => (p.isActive ? "pink" : "white")};
 	&:hover {
 		background-color: lightblue;
 		transition: all 0.3s ease;
